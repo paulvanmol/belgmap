@@ -3,7 +3,7 @@
 options mprint symbolgen ; 
 %macro loadsampletoCAS(sample=hmeq,caslib=casuser);
 %let homedir=%sysget(HOME); 
-%let sample=hmeq; %let caslib=casuser; 
+/*%let sample=hmeq; %let caslib=casuser; */
 %let path=&homedir;
 options dlcreatedir; 
 libname data "&path"; 
