@@ -1,9 +1,10 @@
-%let path=/workshop/belgmap;
-%let path=/home/lynn/belgmap; 
+
+/*%let path=/workshop/belgmap;*/
+%let path=/srv/nfs/kubedata/compute-landingzone/home/sbxpav/belgmap; 
 
 /*%let shapeversion=AdminVector_2015_WGS84_shp;*/
 %let shapeversion=postaldistricts;
-%let cashost=server.demo.sas.com; 
+%let cashost=&_cashost_; 
 %let casport=5570; 
 %let maplib=public;
 
